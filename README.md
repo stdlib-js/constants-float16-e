@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-e/tags). For example,
+
+```javascript
 import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@v0.0.1-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( FLOAT16_E === 2.71875 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@v0.0.1-deno/mod.js';
+import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@deno/mod.js';
 
 console.log( FLOAT16_E );
 // => 2.71875

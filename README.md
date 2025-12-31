@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@deno/mod.js';
+import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@v0.0.1-deno/mod.js';
 ```
 
 #### FLOAT16_E
@@ -67,7 +67,7 @@ var bool = ( FLOAT16_E === 2.71875 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@deno/mod.js';
+import FLOAT16_E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-e@v0.0.1-deno/mod.js';
 
 console.log( FLOAT16_E );
 // => 2.71875
